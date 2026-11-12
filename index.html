@@ -6,20 +6,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>강동 셔츠룸 안내 | 강동 지역 매장 정보</title>
+  <title>강동 셔츠룸 안내 | 강동 지역 매장 및 이용 정보</title>
 
   <meta name="description"
-    content="강동 셔츠룸 관련 매장 안내와 위치, 운영 정보, 방문 전 확인 사항을 소개합니다.">
+    content="강동 셔츠룸 관련 매장 정보와 운영 안내, 방문 전 확인 사항을 소개합니다. 공식 홈페이지에서 자세한 정보를 확인하세요.">
 
   <meta name="keywords"
-    content="강동 셔츠룸, 강동 지역정보, 강동 매장 안내">
+    content="강동 셔츠룸, 강동 셔츠룸 안내, 강동 지역 매장 정보">
 
   <meta name="robots" content="index, follow">
 
-  <meta property="og:title"
-    content="강동 셔츠룸 지역 안내">
+  <link rel="canonical"
+    href="https://gangdong-shirtroom-info.github.io/gangdong-shirtroom-info/">
+
+  <meta property="og:title" content="강동 셔츠룸 안내">
   <meta property="og:description"
-    content="강동 지역 셔츠룸 관련 안내 및 이용 정보">
+    content="강동 지역 셔츠룸 관련 정보와 공식 홈페이지 안내">
   <meta property="og:type" content="website">
 
   <style>
@@ -44,26 +46,47 @@
 
     h1 {
       color: #d8b56a;
-      font-size: 30px;
+      font-size: 32px;
     }
 
     main {
       max-width: 850px;
       margin: auto;
-      padding: 30px 22px;
+      padding: 35px 22px;
     }
 
     section {
-      margin-bottom: 35px;
+      margin-bottom: 38px;
     }
 
     h2 {
       color: #d8b56a;
-      font-size: 21px;
+      font-size: 22px;
     }
 
     a {
       color: #e4c47e;
+    }
+
+    .info {
+      padding: 20px;
+      border: 1px solid #5c4b2d;
+      border-radius: 10px;
+    }
+
+    .home-button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 13px 30px;
+      background: #b99750;
+      color: #111;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 6px;
+    }
+
+    .home-button:hover {
+      background: #e4c47e;
     }
 
     footer {
@@ -71,12 +94,21 @@
       text-align: center;
       background: #1b1b1b;
       color: #aaa;
+      font-size: 13px;
     }
 
-    .info {
-      padding: 20px;
-      border: 1px solid #5c4b2d;
-      border-radius: 10px;
+    @media (max-width: 600px) {
+      header {
+        padding: 45px 15px;
+      }
+
+      h1 {
+        font-size: 26px;
+      }
+
+      main {
+        padding: 25px 18px;
+      }
     }
   </style>
 </head>
@@ -92,11 +124,13 @@
 
   <section>
     <h2>강동 셔츠룸 소개</h2>
+
     <p>
       강동 셔츠룸 관련 정보를 찾는 분들을 위해
       지역 내 매장 정보와 방문 전 확인하면 좋은
       사항들을 정리했습니다.
     </p>
+
     <p>
       매장 선택 시 위치, 운영 시간, 이용 조건 등을
       사전에 확인하는 것이 좋습니다.
@@ -105,6 +139,7 @@
 
   <section>
     <h2>방문 전 확인 사항</h2>
+
     <div class="info">
       <p>· 매장 위치 및 교통편</p>
       <p>· 운영 시간 및 예약 가능 여부</p>
@@ -115,6 +150,7 @@
 
   <section>
     <h2>강동 지역 매장 정보</h2>
+
     <p>
       강동 지역의 매장 정보를 확인할 때는
       최신 운영 정보와 실제 이용 조건을
@@ -123,13 +159,20 @@
   </section>
 
   <section>
-    <h2>관련 정보</h2>
+    <h2>공식 홈페이지 안내</h2>
+
     <p>
-      강동 지역 관련 정보와 매장 안내는
-      공식 홈페이지에서 확인할 수 있습니다.
+      강동 셔츠룸의 자세한 매장 정보와
+      최신 운영 안내는 공식 홈페이지에서
+      확인하실 수 있습니다.
     </p>
-    <!-- 실제 운영하는 공식 홈페이지 주소로 교체 -->
-    <!-- <a href="https://gangdongshirt.clickn.co.kr/" </a> -->
+
+    <a class="home-button"
+       href="https://gangdongshirt.clickn.co.kr/"
+       target="_blank"
+       rel="noopener noreferrer">
+       공식 홈페이지 바로가기
+    </a>
   </section>
 
 </main>
